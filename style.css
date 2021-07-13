@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f2f5;
+}
+.main{
+    margin: 208px;
+}
+img{
+    height: 160px;
+    margin: -28px;
+}
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+}
+.main-container{
+}
+.section{
+    padding: 45px 25px;
+    display: inline-grid;
+    background-color: white;
+    margin-top: 160px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px grey;
+}
+.container{
+    display:-webkit-box;
+}
+input{
+    padding: 12px;
+    border-radius: 4px;
+}
+#name{
+    width: 305px;
+    border-color: grey;
+}
+#name:hover , #name:active{
+    box-shadow: 1.5px 1.5px 8px rgb(44, 148, 245);
+    border-color: rgb(44, 148, 245);
+}
+#pass{
+    width: 305px;
+}
+#pass:hover , #pass:active{
+    box-shadow: 1.5px 1.5px 8px rgb(44, 148, 245);
+    border-color: rgb(44, 148, 245);
+}
+#button{
+    width: 330px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+}
+#button:hover{
+    cursor: pointer;
+}
+#forget{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #1877f2;
+}
+#forget:hover{
+    text-decoration: underline;
+}
+.account{
+ text-align: center;   
+}
+#account{
+    border: none;
+    outline: none;
+    background-color: #42b72a;
+    color: white;
+    padding: 12px;
+    box-shadow: 1px 1px 4px grey;
+    border-radius: 6px;
+}
+#account:hover{
+    cursor: pointer;
+}
+.create{
+    padding: 45px 25px;
+    display: inline-flex;
+}
+#page{
+    font-weight: bolder;
+}
+.footer{
+    background-color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    padding-bottom: 30px;
+}
+.language{
+
+}
+ul{
+    padding: 20px;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    padding: 6px; 
+}
+li:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+
+}
